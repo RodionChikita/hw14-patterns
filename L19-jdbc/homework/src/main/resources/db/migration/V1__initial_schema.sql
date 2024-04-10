@@ -11,6 +11,6 @@ create table client
 create table manager
 (
     no   bigserial not null primary key,
-    lable varchar(50)
+    label varchar(50),
     param1 varchar(50)
 );

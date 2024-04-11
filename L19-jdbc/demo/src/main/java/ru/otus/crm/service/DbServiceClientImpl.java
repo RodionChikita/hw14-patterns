@@ -9,7 +9,6 @@ import ru.otus.core.sessionmanager.TransactionRunner;
 
 import java.util.List;
 import java.util.Optional;
-
 public class DbServiceClientImpl implements DBServiceClient {
     private static final Logger log = LoggerFactory.getLogger(DbServiceClientImpl.class);
 
